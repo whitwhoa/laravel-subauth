@@ -1,6 +1,6 @@
 {
     "name": "whitwhoa/laravel-subauth",
-    "description": ":description",
+    "description": "Wrapper for session based authentication across multiple tables",
     "license": "MIT",
     "homepage": "https://github.com/whitwhoa/laravel-subauth",
     "keywords": ["Laravel", "LaravelSubAuth"],
