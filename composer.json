@@ -1,0 +1,22 @@
+{
+    "name": "whitwhoa/laravel-subauth",
+    "description": ":description",
+    "license": "MIT",
+    "homepage": "https://github.com/whitwhoa/laravel-subauth",
+    "keywords": ["Laravel", "LaravelSubAuth"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Whitwhoa\\LaravelSubAuth\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Whitwhoa\\LaravelSubAuth\\LaravelSubAuthServiceProvider"
+            ]
+        }
+    }
+}
