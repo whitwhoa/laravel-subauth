@@ -18,7 +18,7 @@ class LaravelSubAuthServiceProvider extends ServiceProvider
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         // $this->loadRoutesFrom(__DIR__.'/routes.php');
 
-        $this->app['router']->namespace('Whitwhoa\\laravel-subauth\\Controllers')
+        $this->app['router']->namespace('Whitwhoa\\LaravelSubAuth\\Controllers')
             ->middleware(['web'])
             ->group(function () {
                 $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
