@@ -41,7 +41,7 @@ class LaravelSubAuthServiceProvider extends ServiceProvider
 
         // Register the service the package provides.
         $this->app->singleton('laravelsubauth', function ($app) {
-            return new LaravelSubAuth;
+            return new SubAuth();
         });
     }
 

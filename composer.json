@@ -16,7 +16,10 @@
         "laravel": {
             "providers": [
                 "Whitwhoa\\LaravelSubAuth\\LaravelSubAuthServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "SubAuth": "Whitwhoa\\LaravelSubAuth\\Facades\\LaravelSubAuth::class"
+            }
         }
     }
 }
