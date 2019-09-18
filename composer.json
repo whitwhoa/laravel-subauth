@@ -18,7 +18,7 @@
                 "Whitwhoa\\LaravelSubAuth\\LaravelSubAuthServiceProvider"
             ],
             "aliases": {
-                "SubAuth": "Whitwhoa\\LaravelSubAuth\\Facades\\LaravelSubAuth::class"
+                "SubAuth": "Whitwhoa\\LaravelSubAuth\\Facades\\LaravelSubAuth"
             }
         }
     }
