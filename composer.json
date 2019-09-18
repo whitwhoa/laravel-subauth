@@ -5,7 +5,7 @@
     "homepage": "https://github.com/whitwhoa/laravel-subauth",
     "keywords": ["Laravel", "LaravelSubAuth"],
     "require": {
-        "illuminate/support": "~5"
+        "illuminate/support": "~6"
     },
     "autoload": {
         "psr-4": {
